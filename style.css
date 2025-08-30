@@ -1,0 +1,91 @@
+h1 {
+ font-family: "Sacramento" , cursive;
+ color: #66bfbf;
+ margin: 50px auto 0px auto;
+ font-size: 5.62rem;
+ font-weight:normal ;
+}
+body {
+color: #40514e;
+margin: 0%;
+text-align: center;
+font-family: "Merriweather";
+}
+.top{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.cat{
+    background-color: #e4f9f5;
+    position: relative;
+    padding: 100px;
+}
+h2{
+color: #66bfbf;
+font-family: "Montserrat", sans-serif;
+font-size: 2.5rem;
+font-weight: normal;
+padding-bottom: 10px;
+}
+.bottom{
+    position: absolute;
+    left: 300px;
+    bottom: 40px;
+}
+h3{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+}
+.happy{
+    font-size: 50px;
+}
+.cat-hacker{
+    margin-bottom: -10px;
+    margin-right: -200px;
+    
+}
+footer{
+    background-color: #66bfbf;
+    padding: 100px;
+    color: white;
+    font-size: large;
+}
+
+.tail{
+    display: inline-block;
+}
+.snake{
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: -10px;
+}
+.spicy{
+    height: 200px;
+    width: 200px;
+}
+.goat{
+    font-size: 20px;
+    color: #11999e;
+    font-weight: bold;
+}
+button{
+    background-color: #66bfbf;
+}
+@media(max-width: 800px){
+  h1{
+    font-size: 50px;
+    text-align: center;
+  }
+  .snake{
+    display: block;
+    margin-left: 100px;
+    margin-top: -10px;
+  }
+.cat{
+    background-color: #e4f9f5;
+    position: relative;
+    padding: 100px;
+}
+}
